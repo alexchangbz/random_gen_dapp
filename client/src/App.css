@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #344feb;
+  padding: 1rem 0;
+}
+
+.navbar p {
+  color: #fff;
+}
+
+.header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header button {
+  background-color: #344feb;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.header button:hover {
+  background-color: transparent;
+  color: #344feb;
+  outline: 2px solid #344feb;
+  cursor: pointer;
+}
